@@ -10,6 +10,11 @@ public class ColeccionLibros {
         this.libros= new ArrayList<Libro>();
     }
     
+    
+    public ArrayList<Libro> Listar(){
+        return this.libros;
+    }
+    
     public boolean Agregar(Libro libro){
         return this.libros.add(libro);
     }
